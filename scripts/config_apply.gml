@@ -46,6 +46,12 @@ if (room == men_main)
     }
 
 }
+
+if (os_type == os_android) {
+    global.res_x = display_get_width();
+    global.res_y = display_get_height();
+}
+
 window_set_rectangle(0, 0, global.res_x, global.res_y);
 display_reset(global.antialiasing, global.vsync);
 window_set_fullscreen(global.fullscreen);

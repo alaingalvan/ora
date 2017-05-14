@@ -4,7 +4,7 @@ config_load();
 gamepad_ini();
 
 //Misc
-global.postprocessing = false;
+global.postprocessing = true;
 global.blurvar = 20;
 global.cutscene = false;
 global.debug = true;

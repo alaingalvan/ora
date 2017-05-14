@@ -4,7 +4,7 @@ config_load();
 gamepad_ini();
 
 //Misc
-global.postprocessing = true;
+global.postprocessing = os_type != os_android;
 global.blurvar = 20;
 global.cutscene = false;
 global.debug = true;

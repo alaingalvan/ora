@@ -75,6 +75,10 @@ cam_xport = 0;
 cam_yport = 0;
 aspect_ratio = global.aspect_ratio;
 
+if (os_type == os_android) {
+    aspect_ratio = 1. / aspect_ratio;
+}
+
 global.mb_middle_event_x = mouse_x;
 global.mb_middle_event_y = mouse_y;
 

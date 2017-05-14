@@ -16,10 +16,10 @@ if (gamepad_is_supported())
 //Graphics
 global.res_x = ini_read_real("Graphics", "Resolution Width", display_get_width());
 global.res_y = ini_read_real("Graphics", "Resolution Height", display_get_height());
-global.aspect_ratio = ini_read_real("Graphics", "Aspect Ratio", (global.res_x/global.res_y));
+global.aspect_ratio = ini_read_real("Graphics", "Aspect Ratio", (global.res_y / global.res_x));
 global.fullscreen = ini_read_real("Graphics", "Fullscreen", true);
 global.antialiasing = ini_read_real("Graphics", "Anti-aliasing", 0);
-global.vsync = ini_read_real("Graphics", "Vsync", true);
+global.vsync = ini_read_real("Graphics", "Vsync", false);
 global.gamma = ini_read_real("Graphics", "Gamma", 1.0);
 global.framelimit = ini_read_real("Graphics", "Frame Limit", 30);
 

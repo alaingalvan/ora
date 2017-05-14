@@ -158,7 +158,6 @@ camera_update();
           <argument>
             <kind>1</kind>
             <string>///Camera Input
-camera_input();
 
 //Screenshot
 if (keyboard_check_released(vk_f12))

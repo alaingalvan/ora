@@ -6,6 +6,7 @@ Initialize Code
 ////////////////////////////////////////////////////////////////////////////////////////
 This script initializes the camera and all the variables needed in the camera. 
 //////////////////////////////////////////////////////////////////////////////////////*/
+config_apply();
 //D3D Settings
 d3d_start();
 d3d_set_shading(true);
@@ -79,4 +80,4 @@ global.mb_middle_event_y = mouse_y;
 
 player_exists = false;
 global.camera_index[0] = id;
-config_apply();
+

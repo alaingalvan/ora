@@ -10,6 +10,7 @@ A game where you're a blur of light trying to escape an encroaching darkness. Or
 ## Screenshots
 
 ![Gameplay Gif](screenshots/gameplay-animation.gif)
+
 | ![Main Menu](screenshots/menu.png) | ![Gameplay](screenshots/gameplay.png) |
 |:-:|:-:|
 | ![Editor](screenshots/editor.png) | ![Android App](screenshots/android.png) |
@@ -28,7 +29,7 @@ Alternatively, you can plug in a gamepad and it will automatically be recognized
 
 [license-img]: http://img.shields.io/:license-mit-blue.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT  
-[steam-url]: steamcommunity.com/sharedfiles/filedetails/?id=101432890&tscn=1350763601
+[steam-url]: https://steamcommunity.com/sharedfiles/filedetails/?id=101432890&tscn=1350763601
 [steam-img]: https://img.shields.io/badge/steam-workshop-2a2a2a.svg?style=flat-square
 [windows-img]: http://img.shields.io/:download-win-03b3fe.svg?style=flat-square
 [windows-url]: https://github.com/alaingalvan/ora.gmx/raw/master/builds/windows/ora.exe 

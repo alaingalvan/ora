@@ -4,6 +4,7 @@
 [![Steam][steam-img]][steam-url]
 [![Windows][windows-img]][windows-url]
 [![Android][android-img]][android-url]
+[![Donate][donate-img]][donate-url]
 
 A game where you're a blur of light trying to escape an encroaching darkness. Ora is a game I made in 2012 that was a finalist for the Game Maker Studio Steam Workshop competition.
 
@@ -27,6 +28,8 @@ A game where you're a blur of light trying to escape an encroaching darkness. Or
 
 Alternatively, you can plug in a gamepad and it will automatically be recognized. 
 
+[donate-img]: http://img.shields.io/:$-patreon-green.svg?style=flat-square
+[donate-url]: https://www.patreon.com/alaingalvan
 [license-img]: http://img.shields.io/:license-mit-blue.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT  
 [steam-url]: https://steamcommunity.com/sharedfiles/filedetails/?id=101432890&tscn=1350763601

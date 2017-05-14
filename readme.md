@@ -4,9 +4,11 @@ Complete source for Ora, a game I made in 2012 where a ball of light tries to es
 
 ## Screenshots
 
-| ![](screenshots/menu.png) | ![](screenshots/gameplay.png) |
+![Gameplay Gif](screenshots/gameplay-animation.gif)
+
+| ![Main Menu](screenshots/menu.png) | ![Gameplay](screenshots/gameplay.png) |
 |:-:|:-:|
-| ![](screenshots/editor.png) | ![](screenshots/android.png) |
+| ![Editor](screenshots/editor.png) | ![Android App](screenshots/android.png) |
 
 ## Youtube
 
@@ -15,7 +17,8 @@ Complete source for Ora, a game I made in 2012 where a ball of light tries to es
 ## Controls
 
 - **Arrow Keys** - Move / Jump
-- Hold **Up** to Reflect off walls. 
+- **Up** - Jump / Hold Up to Reflect off walls. 
+- **Tilde/Tick** (\`) - Open Console. Type `help` for cheat codes.
 
 Alternatively, you can plug in a gamepad and it will automatically be recognized. 
 

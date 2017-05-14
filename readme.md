@@ -8,7 +8,9 @@ Complete source for Ora, a game I made in 2012 where a ball of light tries to es
 |:-:|:-:|
 | ![](screenshots/editor.png) | ![](screenshots/android.png) |
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/-kXZ0GLl9TQ" frameborder="0" allowfullscreen></iframe>
+## Youtube
+
+[![preview](http://img.youtube.com/vi/-kXZ0GLl9TQ/0.jpg)](http://www.youtube.com/watch?v=-kXZ0GLl9TQ "Ora Gameplay")
 
 ## Controls
 

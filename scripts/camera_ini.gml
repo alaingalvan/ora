@@ -75,7 +75,7 @@ cam_xport = 0;
 cam_yport = 0;
 aspect_ratio = global.aspect_ratio;
 
-if (os_type == os_android) {
+if (os_type == os_android || os_type == os_macosx) {
     aspect_ratio = 1. / aspect_ratio;
 }
 

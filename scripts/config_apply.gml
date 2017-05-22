@@ -50,8 +50,9 @@ if (room == men_main)
 if (os_type == os_android) {
     global.res_x = display_get_width();
     global.res_y = display_get_height();
-    global.aspect_ratio = global.res_y / global.res_x;
 }
+
+global.aspect_ratio = global.res_y / global.res_x;
 
 window_set_rectangle(0, 0, global.res_x, global.res_y);
 display_reset(global.antialiasing, global.vsync);

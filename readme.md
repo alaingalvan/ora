@@ -3,6 +3,7 @@
 [![License][license-img]][license-url]
 [![Steam][steam-img]][steam-url]
 [![Windows][windows-img]][windows-url]
+[![Mac][mac-img]][mac-url]
 [![Android][android-img]][android-url]
 [![Donate][donate-img]][donate-url]
 
@@ -38,3 +39,5 @@ Alternatively, you can plug in a gamepad and it will automatically be recognized
 [windows-url]: https://github.com/alaingalvan/ora.gmx/raw/master/builds/windows/ora.exe 
 [android-img]: http://img.shields.io/:download-android-a4ca39.svg?style=flat-square
 [android-url]: https://github.com/alaingalvan/ora.gmx/raw/master/builds/android/ora.apk
+[mac-img]: http://img.shields.io/:download-mac-cb929a.svg?style=flat-square
+[mac-url]: https://github.com/alaingalvan/ora.gmx/raw/master/builds/osx/ora.app.zip

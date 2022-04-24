@@ -1,0 +1,258 @@
+Converting GML script: ${project_dir}\scripts\game_ini\game_ini.gml
+Converted description /// @description game_ini()
+
+Converting GML script: ${project_dir}\scripts\config_apply\config_apply.gml
+Converted builtin - line 23: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 33: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 42: view_xview = 160 -> __view_set( e__VW.XView, 0, 160 )
+Converted builtin - line 24: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 34: view_yview = 120 -> __view_set( e__VW.YView, 0, 120 )
+Converted builtin - line 43: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 5: view_wview[i] = window_get_width( -> __view_set( e__VW.WView, i, window_get_width( )
+Converted builtin - line 25: view_wview = 1920 -> __view_set( e__VW.WView, 0, 1920 )
+Converted builtin - line 35: view_wview = 1920 -> __view_set( e__VW.WView, 0, 1920 )
+Converted builtin - line 44: view_wview = 1600 -> __view_set( e__VW.WView, 0, 1600 )
+Converted builtin - line 6: view_hview[i] = window_get_height( -> __view_set( e__VW.HView, i, window_get_height( )
+Converted builtin - line 26: view_hview = 1200 -> __view_set( e__VW.HView, 0, 1200 )
+Converted builtin - line 36: view_hview = 1080 -> __view_set( e__VW.HView, 0, 1080 )
+Converted builtin - line 45: view_hview = 1200 -> __view_set( e__VW.HView, 0, 1200 )
+Converted builtin - line 16: view_xport = 0 -> __view_set( e__VW.XPort, 0, 0 )
+Converted builtin - line 17: view_yport = 0 -> __view_set( e__VW.YPort, 0, 0 )
+Converted builtin - line 7: view_wport[i] = window_get_width( -> __view_set( e__VW.WPort, i, window_get_width( )
+Converted builtin - line 14: view_wport = global.res_x -> __view_set( e__VW.WPort, 0, global.res_x )
+Converted builtin - line 8: view_hport[i] = window_get_height( -> __view_set( e__VW.HPort, i, window_get_height( )
+Converted builtin - line 15: view_hport = global.res_y -> __view_set( e__VW.HPort, 0, global.res_y )
+
+Converting GML script: ${project_dir}\scripts\gameinfo_load\gameinfo_load.gml
+Converted string - line 4: 'ora_gameinfo.config' -> "ora_gameinfo.config"
+Converted string - line 7: 'ora_gameinfo.config' -> "ora_gameinfo.config"
+
+Converting GML script: ${project_dir}\scripts\gamesave_load\gamesave_load.gml
+Converted string - line 3: 'ora_gamesave.sav' -> "ora_gamesave.sav"
+Converted string - line 6: 'ora_gamesave.sav' -> "ora_gamesave.sav"
+
+Converting GML script: ${project_dir}\scripts\convert_2d\convert_2d.gml
+Converted builtin - line 4: view_wview[argument5] -> __view_get( e__VW.WView, argument5 )
+Converted builtin - line 5: view_hview[argument5] -> __view_get( e__VW.HView, argument5 )
+
+Converting GML script: ${project_dir}\scripts\convert_3d\convert_3d.gml
+Converted builtin - line 22: view_wview[argument6] -> __view_get( e__VW.WView, argument6 )
+Converted builtin - line 23: view_wview[argument6] -> __view_get( e__VW.WView, argument6 )
+Converted builtin - line 22: view_hview[argument6] -> __view_get( e__VW.HView, argument6 )
+Converted builtin - line 25: view_hview[argument6] -> __view_get( e__VW.HView, argument6 )
+
+Converting GML script: ${project_dir}\scripts\camera_debug_control\camera_debug_control.gml
+Converted string - line 88: 'Q' -> "Q"
+Converted string - line 95: 'Z' -> "Z"
+Converted string - line 102: 'Z' -> "Z"
+Converted string - line 102: 'Q' -> "Q"
+
+Converting GML script: ${project_dir}\scripts\view_deactivate\view_deactivate.gml
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\console_execute\console_execute.gml
+Converted description /// @description gamescript_execute(instr)/// @param instr
+Converted string - line 11: ' ' -> " "
+Converted string - line 14: ' ' -> " "
+
+!!! Font fon_main18 uses a font (Hero Light) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main18\fon_main18.gms1.png
+!!! Font fon_main12 uses a font (Hero Light) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main12\fon_main12.gms1.png
+!!! Font fon_main10 uses a font (Hero Light) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main10\fon_main10.gms1.png
+!!! Font fon_main uses a font (Hero) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main\fon_main.gms1.png
+Font fon_main20 has been converted to font family Century Gothic (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main20\fon_main20.gms1.png
+!!! Font fon_main32 uses a font (Code Light) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main32\fon_main32.gms1.png
+Font fon_main36 has been converted to font family Century Gothic (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fon_main36\fon_main36.gms1.png
+Converting GML script: ${project_dir}\objects\obj_camera\Create_0.gml
+Converted description /// @description Camera Ini
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_2.gml
+Converted description /// @description Mouse Raytrace
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_1.gml
+Converted description /// @description Delta FPS
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_0.gml
+Converted description /// @description Camera Update
+
+Converting GML script: ${project_dir}\objects\obj_camera\Other_3.gml
+Converted description /// @description D3D End
+
+Converting GML script: ${project_dir}\objects\obj_camera\Draw_64.gml
+Converted builtin - line 15: view_surface_id[0] -> __view_get( e__VW.SurfaceID, 0 )
+Converted description /// @description Camera Surface Draw
+
+Converting GML script: ${project_dir}\objects\obj_camera\Draw_0.gml
+Converted builtin - line 12: view_surface_id[0] = cam_surface -> __view_set( e__VW.SurfaceID, 0, cam_surface )
+Converted description /// @description Camera Draw
+
+Converting GML script: ${project_dir}\objects\obj_orb\Create_0.gml
+Converted string - line 13: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_orb\Step_2.gml
+Converted description /// @description Mesurements
+
+Converting GML script: ${project_dir}\objects\obj_orb\Step_0.gml
+Converted description /// @description Orb Engine 4
+Converted string - line 26: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_orb2\Create_0.gml
+Converted string - line 12: 'A' -> "A"
+Converted string - line 13: 'D' -> "D"
+Converted string - line 14: 'W' -> "W"
+Converted string - line 15: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\obj_orb2\Step_0.gml
+Converted string - line 27: 'A' -> "A"
+Converted string - line 28: 'D' -> "D"
+Converted string - line 29: 'W' -> "W"
+Converted string - line 30: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\Create_0.gml
+Converted description /// @description Menu Start
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\Alarm_11.gml
+Converted description /// @description Mobile Specific Settings
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\Alarm_0.gml
+Converted description /// @description Input Trigger
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\Step_1.gml
+Converted description /// @description Delta FPS
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\Step_0.gml
+Converted builtin - line 79: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 180: view_wview -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Graphical Changes
+Converted string - line 230: 'X' -> "X"
+Converted string - line 235: 'Z' -> "Z"
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\Draw_0.gml
+Converted description /// @description Backgrounds
+
+Converting GML script: ${project_dir}\objects\obj_mainmenu\KeyRelease_122.gml
+Converted builtin - line 10: view_wview[i] = window_get_width( -> __view_set( e__VW.WView, i, window_get_width( )
+Converted builtin - line 22: view_wview[i] = window_get_width( -> __view_set( e__VW.WView, i, window_get_width( )
+Converted builtin - line 11: view_hview[i] = window_get_height( -> __view_set( e__VW.HView, i, window_get_height( )
+Converted builtin - line 23: view_hview[i] = window_get_height( -> __view_set( e__VW.HView, i, window_get_height( )
+Converted builtin - line 12: view_wport[i] = window_get_width( -> __view_set( e__VW.WPort, i, window_get_width( )
+Converted builtin - line 24: view_wport[i] = window_get_width( -> __view_set( e__VW.WPort, i, window_get_width( )
+Converted builtin - line 13: view_hport[i] = window_get_height( -> __view_set( e__VW.HPort, i, window_get_height( )
+Converted builtin - line 25: view_hport[i] = window_get_height( -> __view_set( e__VW.HPort, i, window_get_height( )
+
+Converting GML script: ${project_dir}\objects\obj_leveleditor\Step_0.gml
+Converted string - line 2: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\obj_leveleditor\Draw_64.gml
+Converted builtin - line 45: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 49: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_console\Draw_64.gml
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\rooms\lev_chamber0\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber1\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber2\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber3\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber4\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber5\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber6\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber7\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\rooms\lev_chamber8\RoomCreationCode.gml
+Error: variable 'camera_create' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Missing audiogroup for sound: 'sou_sfx_bounce' - setting to default audio group
+Missing audiogroup for sound: 'sou_bgm_dimensions' - setting to default audio group
+Missing audiogroup for sound: 'sou_sfx_hit' - setting to default audio group
+Missing audiogroup for sound: 'sou_sfx_checkpoint' - setting to default audio group
+Missing audiogroup for sound: 'sou_bgm_selection' - setting to default audio group
+Missing audiogroup for sound: 'sound5' - setting to default audio group
+Game speed set to 30
+String not found: ConversionLog_ScriptNameInUse
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'background/background_get_texture.gml'
+Added compatibility script 'background/draw_background_stretched.gml'
+Added compatibility script 'd3d/d3d_draw_floor.gml'
+Added compatibility script 'd3d/d3d_draw_wall.gml'
+Added compatibility script 'd3d/d3d_end.gml'
+Added compatibility script 'd3d/d3d_light_define_ambient.gml'
+Added compatibility script 'd3d/d3d_model_create.gml'
+Added compatibility script 'd3d/d3d_model_load.gml'
+Added compatibility script 'd3d/d3d_model_primitive_begin.gml'
+Added compatibility script 'd3d/d3d_model_primitive_end.gml'
+Added compatibility script 'd3d/d3d_model_vertex.gml'
+Added compatibility script 'd3d/d3d_model_vertex_color.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_color.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_texture.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_texture_color.gml'
+Added compatibility script 'd3d/d3d_model_vertex_texture.gml'
+Added compatibility script 'd3d/d3d_model_vertex_texture_color.gml'
+Added compatibility script 'd3d/d3d_model_wall.gml'
+Added compatibility script 'd3d/d3d_primitive_begin_texture.gml'
+Added compatibility script 'd3d/d3d_primitive_end.gml'
+Added compatibility script 'd3d/d3d_set_culling.gml'
+Added compatibility script 'd3d/d3d_set_hidden.gml'
+Added compatibility script 'd3d/d3d_set_lighting.gml'
+Added compatibility script 'd3d/d3d_set_projection_ext.gml'
+Added compatibility script 'd3d/d3d_set_shading.gml'
+Added compatibility script 'd3d/d3d_start.gml'
+Added compatibility script 'd3d/d3d_vertex_normal_texture.gml'
+Added compatibility script 'd3d/__d3d_model_add_vertex.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'joystick/joystick_check_button.gml'
+Added compatibility script 'joystick/joystick_direction.gml'
+Added compatibility script 'joystick/joystick_exists.gml'
+Added compatibility script 'joystick/__joystick_2_gamepad.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_isplaying.gml'
+Added compatibility script 'sound/sound_loop.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'sound/sound_volume.gml'
+Added compatibility script 'texture/texture_set_blending.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'joystick/__init_joystick.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'd3d/d3d_model_block.gml'
+Added compatibility script 'd3d/d3d_model_clear.gml'
+Added compatibility script 'd3d/d3d_model_cone.gml'
+Added compatibility script 'd3d/d3d_model_cylinder.gml'
+Added compatibility script 'd3d/d3d_model_ellipsoid.gml'
+Added compatibility script 'd3d/d3d_model_floor.gml'
+Added compatibility script 'joystick/joystick_process_events.gml'
+Added compatibility script 'joystick/joystick_xpos.gml'
+Added compatibility script 'joystick/joystick_ypos.gml'
+Added compatibility script '__global_object_depths.gml'

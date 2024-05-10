@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "d3d",
-    "path": "folders/Scripts/compatibility/d3d.yy",
+  "$GMScript":"",
+  "%Name":"__init_d3d",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"__init_d3d",
+  "parent":{
+    "name":"d3d",
+    "path":"folders/Scripts/compatibility/d3d.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "__init_d3d",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "joystick",
-    "path": "folders/Scripts/compatibility/joystick.yy",
+  "$GMScript":"",
+  "%Name":"joystick_direction",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"joystick_direction",
+  "parent":{
+    "name":"joystick",
+    "path":"folders/Scripts/compatibility/joystick.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "joystick_direction",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

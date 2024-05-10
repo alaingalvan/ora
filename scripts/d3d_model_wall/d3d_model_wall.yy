@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "d3d",
-    "path": "folders/Scripts/compatibility/d3d.yy",
+  "$GMScript":"",
+  "%Name":"d3d_model_wall",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"d3d_model_wall",
+  "parent":{
+    "name":"d3d",
+    "path":"folders/Scripts/compatibility/d3d.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "d3d_model_wall",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

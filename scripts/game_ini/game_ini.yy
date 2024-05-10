@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Config",
-    "path": "folders/Scripts/Config.yy",
+  "$GMScript":"",
+  "%Name":"game_ini",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_ini",
+  "parent":{
+    "name":"Config",
+    "path":"folders/Scripts/Config.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "game_ini",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

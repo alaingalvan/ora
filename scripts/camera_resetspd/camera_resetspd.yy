@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Camera",
-    "path": "folders/Scripts/Actors/Camera.yy",
+  "$GMScript":"",
+  "%Name":"camera_resetspd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"camera_resetspd",
+  "parent":{
+    "name":"Camera",
+    "path":"folders/Scripts/Actors/Camera.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "camera_resetspd",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

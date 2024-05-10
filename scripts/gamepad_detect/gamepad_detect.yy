@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Input",
-    "path": "folders/Scripts/Config/Input.yy",
+  "$GMScript":"",
+  "%Name":"gamepad_detect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gamepad_detect",
+  "parent":{
+    "name":"Input",
+    "path":"folders/Scripts/Config/Input.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "gamepad_detect",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

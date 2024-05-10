@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Console",
-    "path": "folders/Scripts/Ora Engine Editor/Console.yy",
+  "$GMScript":"",
+  "%Name":"console_execute",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"console_execute",
+  "parent":{
+    "name":"Console",
+    "path":"folders/Scripts/Ora Engine Editor/Console.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "console_execute",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

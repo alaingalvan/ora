@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora",
-    "path": "folders/Scripts/Actors/Ora.yy",
+  "$GMScript":"",
+  "%Name":"noclip_move",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"noclip_move",
+  "parent":{
+    "name":"Ora",
+    "path":"folders/Scripts/Actors/Ora.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "noclip_move",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

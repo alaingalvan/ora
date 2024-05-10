@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Functions.yy",
+  "$GMScript":"",
+  "%Name":"angle_8dir",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"angle_8dir",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Scripts/Functions.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "angle_8dir",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

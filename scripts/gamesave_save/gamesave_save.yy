@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Load",
-    "path": "folders/Scripts/Config/Save/Load.yy",
+  "$GMScript":"",
+  "%Name":"gamesave_save",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gamesave_save",
+  "parent":{
+    "name":"Load",
+    "path":"folders/Scripts/Config/Save/Load.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "gamesave_save",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

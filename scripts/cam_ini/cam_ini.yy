@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Camera",
-    "path": "folders/Scripts/Actors/Camera.yy",
+  "$GMScript":"",
+  "%Name":"cam_ini",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cam_ini",
+  "parent":{
+    "name":"Camera",
+    "path":"folders/Scripts/Actors/Camera.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "cam_ini",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

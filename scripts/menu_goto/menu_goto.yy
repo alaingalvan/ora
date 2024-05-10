@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Main Menu",
-    "path": "folders/Scripts/Actors/Main Menu.yy",
+  "$GMScript":"",
+  "%Name":"menu_goto",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"menu_goto",
+  "parent":{
+    "name":"Main Menu",
+    "path":"folders/Scripts/Actors/Main Menu.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "menu_goto",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

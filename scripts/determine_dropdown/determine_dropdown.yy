@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora Engine Editor",
-    "path": "folders/Scripts/Ora Engine Editor.yy",
+  "$GMScript":"",
+  "%Name":"determine_dropdown",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"determine_dropdown",
+  "parent":{
+    "name":"Ora Engine Editor",
+    "path":"folders/Scripts/Ora Engine Editor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "determine_dropdown",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

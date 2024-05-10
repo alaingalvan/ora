@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "sound",
-    "path": "folders/Scripts/compatibility/sound.yy",
+  "$GMScript":"",
+  "%Name":"sound_play",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"sound_play",
+  "parent":{
+    "name":"sound",
+    "path":"folders/Scripts/compatibility/sound.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sound_play",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

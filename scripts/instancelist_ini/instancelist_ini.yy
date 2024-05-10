@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora Engine Editor",
-    "path": "folders/Scripts/Ora Engine Editor.yy",
+  "$GMScript":"",
+  "%Name":"instancelist_ini",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"instancelist_ini",
+  "parent":{
+    "name":"Ora Engine Editor",
+    "path":"folders/Scripts/Ora Engine Editor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "instancelist_ini",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora",
-    "path": "folders/Scripts/Actors/Ora.yy",
+  "$GMScript":"",
+  "%Name":"ora_drawghosts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ora_drawghosts",
+  "parent":{
+    "name":"Ora",
+    "path":"folders/Scripts/Actors/Ora.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ora_drawghosts",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

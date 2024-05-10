@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora Engine Editor",
-    "path": "folders/Scripts/Ora Engine Editor.yy",
+  "$GMScript":"",
+  "%Name":"hierarchy_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hierarchy_draw",
+  "parent":{
+    "name":"Ora Engine Editor",
+    "path":"folders/Scripts/Ora Engine Editor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "hierarchy_draw",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

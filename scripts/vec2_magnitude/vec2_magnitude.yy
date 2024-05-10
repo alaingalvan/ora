@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Vectors",
-    "path": "folders/Scripts/Vectors.yy",
+  "$GMScript":"",
+  "%Name":"vec2_magnitude",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec2_magnitude",
+  "parent":{
+    "name":"Vectors",
+    "path":"folders/Scripts/Vectors.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "vec2_magnitude",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

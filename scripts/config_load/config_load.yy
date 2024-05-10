@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Config",
-    "path": "folders/Scripts/Config.yy",
+  "$GMScript":"",
+  "%Name":"config_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"config_load",
+  "parent":{
+    "name":"Config",
+    "path":"folders/Scripts/Config.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "config_load",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "background",
-    "path": "folders/Scripts/compatibility/background.yy",
+  "$GMScript":"",
+  "%Name":"draw_background_stretched",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"draw_background_stretched",
+  "parent":{
+    "name":"background",
+    "path":"folders/Scripts/compatibility/background.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "draw_background_stretched",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

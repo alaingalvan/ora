@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "d3d",
-    "path": "folders/Scripts/compatibility/d3d.yy",
+  "$GMScript":"",
+  "%Name":"__d3d_model_add_vertex",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"__d3d_model_add_vertex",
+  "parent":{
+    "name":"d3d",
+    "path":"folders/Scripts/compatibility/d3d.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "__d3d_model_add_vertex",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

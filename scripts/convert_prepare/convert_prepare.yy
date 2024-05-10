@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Actors/Camera/Functions.yy",
+  "$GMScript":"",
+  "%Name":"convert_prepare",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"convert_prepare",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Scripts/Actors/Camera/Functions.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "convert_prepare",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

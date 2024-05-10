@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora",
-    "path": "folders/Scripts/Actors/Ora.yy",
+  "$GMScript":"",
+  "%Name":"touch_control",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"touch_control",
+  "parent":{
+    "name":"Ora",
+    "path":"folders/Scripts/Actors/Ora.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "touch_control",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

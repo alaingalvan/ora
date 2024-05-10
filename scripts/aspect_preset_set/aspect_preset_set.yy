@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Presets",
-    "path": "folders/Scripts/Config/Presets.yy",
+  "$GMScript":"",
+  "%Name":"aspect_preset_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"aspect_preset_set",
+  "parent":{
+    "name":"Presets",
+    "path":"folders/Scripts/Config/Presets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "aspect_preset_set",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Vectors",
-    "path": "folders/Scripts/Vectors.yy",
+  "$GMScript":"",
+  "%Name":"vec2_reflect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec2_reflect",
+  "parent":{
+    "name":"Vectors",
+    "path":"folders/Scripts/Vectors.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "vec2_reflect",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

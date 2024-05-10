@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora Engine Editor",
-    "path": "folders/Scripts/Ora Engine Editor.yy",
+  "$GMScript":"",
+  "%Name":"folder_goto",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"folder_goto",
+  "parent":{
+    "name":"Ora Engine Editor",
+    "path":"folders/Scripts/Ora Engine Editor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "folder_goto",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

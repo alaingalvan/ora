@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": true,
-  "parent": {
-    "name": "draw",
-    "path": "folders/Scripts/compatibility/draw.yy",
+  "$GMScript":"",
+  "%Name":"draw_set_blend_mode",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"draw_set_blend_mode",
+  "parent":{
+    "name":"draw",
+    "path":"folders/Scripts/compatibility/draw.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "draw_set_blend_mode",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

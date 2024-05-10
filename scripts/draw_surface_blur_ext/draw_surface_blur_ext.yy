@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Functions.yy",
+  "$GMScript":"",
+  "%Name":"draw_surface_blur_ext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_surface_blur_ext",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Scripts/Functions.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "draw_surface_blur_ext",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

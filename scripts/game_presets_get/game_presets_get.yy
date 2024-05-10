@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Presets",
-    "path": "folders/Scripts/Config/Presets.yy",
+  "$GMScript":"",
+  "%Name":"game_presets_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_presets_get",
+  "parent":{
+    "name":"Presets",
+    "path":"folders/Scripts/Config/Presets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "game_presets_get",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Load",
-    "path": "folders/Scripts/Config/Save/Load.yy",
+  "$GMScript":"",
+  "%Name":"adfile_close",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"adfile_close",
+  "parent":{
+    "name":"Load",
+    "path":"folders/Scripts/Config/Save/Load.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "adfile_close",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

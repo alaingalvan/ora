@@ -1,11 +1,12 @@
 {
-  "momentList": [],
-  "parent": {
-    "name": "Timelines",
-    "path": "folders/Timelines.yy",
+  "$GMTimeline":"",
+  "%Name":"timeline0",
+  "momentList":[],
+  "name":"timeline0",
+  "parent":{
+    "name":"Timelines",
+    "path":"folders/Timelines.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "timeline0",
-  "tags": [],
-  "resourceType": "GMTimeline",
+  "resourceType":"GMTimeline",
+  "resourceVersion":"2.0",
 }

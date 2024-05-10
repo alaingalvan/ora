@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Ora Engine Editor",
-    "path": "folders/Scripts/Ora Engine Editor.yy",
+  "$GMScript":"",
+  "%Name":"dropmenu_perform",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dropmenu_perform",
+  "parent":{
+    "name":"Ora Engine Editor",
+    "path":"folders/Scripts/Ora Engine Editor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "dropmenu_perform",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

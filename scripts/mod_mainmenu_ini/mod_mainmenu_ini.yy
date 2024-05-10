@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Models",
-    "path": "folders/Scripts/Actors/Models.yy",
+  "$GMScript":"",
+  "%Name":"mod_mainmenu_ini",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mod_mainmenu_ini",
+  "parent":{
+    "name":"Models",
+    "path":"folders/Scripts/Actors/Models.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "mod_mainmenu_ini",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

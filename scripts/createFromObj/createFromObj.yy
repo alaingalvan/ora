@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Models",
-    "path": "folders/Scripts/Actors/Models.yy",
+  "$GMScript":"",
+  "%Name":"createFromObj",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"createFromObj",
+  "parent":{
+    "name":"Models",
+    "path":"folders/Scripts/Actors/Models.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "createFromObj",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,4 +1,3 @@
-cur_string = ""
-string_history = ""
-keyboard_string = ""
-
+cur_string = "";
+string_history = "";
+keyboard_string = "";

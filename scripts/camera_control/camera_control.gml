@@ -1,5 +1,1 @@
-function camera_control() {
-
-
-
-}
+function camera_control() {}

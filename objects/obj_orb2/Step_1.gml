@@ -1,2 +1,1 @@
-dirprevious=Direction
-
+dirprevious = Direction;

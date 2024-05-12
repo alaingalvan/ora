@@ -9,11 +9,11 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":180.0512,
   "name":"sou_bgm_dimensions",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
   },
   "preload":true,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sou_bgm_dimensions",
   "type":1,
-  "volume":1.0,
+  "volume":0.1,
 }

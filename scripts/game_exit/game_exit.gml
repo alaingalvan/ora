@@ -1,8 +1,5 @@
 function game_exit() {
-	//mod_mainmenu_ini();
+  //mod_mainmenu_ini();
 
-	game_end();
-
-
-
+  game_end();
 }

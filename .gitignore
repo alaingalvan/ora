@@ -216,3 +216,6 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 *.keystore
+
+# JS
+node_modules

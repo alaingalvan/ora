@@ -13,4 +13,3 @@ blur_active = false; //True = fade to band, false = fade to 0.
 //Color Correction
 color_curve = shader_get_sampler_index(shr_camera, "texCurve");
 vignette = shader_get_sampler_index(shr_camera, "texVignette");
-

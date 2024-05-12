@@ -1,6 +1,1 @@
-function ora_drawghosts() {
-
-
-
-
-}
+function ora_drawghosts() {}

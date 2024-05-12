@@ -2,8 +2,6 @@
 //{
 //instance_destroy();
 //}
-if ! instance_exists(obj_foe_versa)
-{
-instance_destroy();
+if (!instance_exists(obj_foe_versa)) {
+  instance_destroy();
 }
-

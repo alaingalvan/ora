@@ -1,5 +1,5 @@
 function adfile_open_write(argument0) {
-	/* Advanced File System
+  /* Advanced File System
 	By Joshua Brookover, josh@ja-lb.com
 
 	adfile_open_write(filename)
@@ -13,8 +13,5 @@ function adfile_open_write(argument0) {
 	Handle for the file.
 	*/
 
-	return file_bin_open(argument0,1);
-
-
-
+  return file_bin_open(argument0, 1);
 }

@@ -1,0 +1,14 @@
+{
+  "name": "ora",
+  "version": "1.0.0",
+  "description": "A game maker studio 2 remake of a light ball game.",
+  "scripts": {
+    "format": "node format-gml.js"
+  },
+  "author": "Alain Galvan <hi@alain.xyz>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.14",
+    "prettier": "^3.2.5"
+  }
+}

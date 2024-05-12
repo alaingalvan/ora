@@ -1,26 +1,27 @@
-//Shader shaderCamera (Fragment)
-//By Alain Galvan
-//A combination of shaders specific to the camera, to aid with post processing effects.
+// Shader shaderCamera (Fragment)
+// By Alain Galvan
+// A combination of shaders specific to the camera, to aid with post processing
+// effects.
 ////////////////////////////////////////////////////////////////////////////////////////
-//Initial Vars
+// Initial Vars
 varying vec2 v_vTexcoord;
 uniform vec2 resolution;
 
-//Gussian Blur Values
+// Gussian Blur Values
 uniform float sigma;
 uniform float blurSize;
 float pii = 3.14159265;
 float numBlurPixelsPerSide = 3.0;
 vec2 blurMultiplyVec = vec2(1.0, 0.0);
 
-//Curves Values
+// Curves Values
 uniform sampler2D texCurve;
 
-//uniform sampler2D texOverlay;
+// uniform sampler2D texOverlay;
 
 uniform sampler2D texVignette;
 ////////////////////////////////////////////////////////////////////////////////////////
-//blurSample - Blurs a sampler. 
+// blurSample - Blurs a sampler.
 ////////////////////////////////////////////////////////////////////////////////////////
 vec4 blurSample(sampler2D baseTex, float sigma, float blurSize)
 {
@@ -43,8 +44,12 @@ vec4 blurSample(sampler2D baseTex, float sigma, float blurSize)
         // Go through the remaining 8 vertical samples
         for (float i = 1.0; i <= numBlurPixelsPerSide; i++)
         {
-            avgValue += texture2D(baseTex, v_vTexcoord.xy - i * blurSize * blurMultiplyVec) * incrementalGaussian.x;
-            avgValue += texture2D(baseTex, v_vTexcoord.xy + i * blurSize * blurMultiplyVec) * incrementalGaussian.x;
+            avgValue += texture2D(baseTex, v_vTexcoord.xy -
+                                               i * blurSize * blurMultiplyVec) *
+                        incrementalGaussian.x;
+            avgValue += texture2D(baseTex, v_vTexcoord.xy +
+                                               i * blurSize * blurMultiplyVec) *
+                        incrementalGaussian.x;
             coefficientSum += 2.0 * incrementalGaussian.x;
             incrementalGaussian.xy *= incrementalGaussian.yz;
         }
@@ -54,15 +59,17 @@ vec4 blurSample(sampler2D baseTex, float sigma, float blurSize)
     return texture2D(baseTex, v_vTexcoord);
 }
 ////////////////////////////////////////////////////////////////////////////////////////
-//curveColor - Applies Curves to a sample. 
+// curveColor - Applies Curves to a sample.
 ////////////////////////////////////////////////////////////////////////////////////////
 vec4 curveColor(vec4 inColor, sampler2D texCurve)
 {
-    return vec4(texture2D(texCurve, vec2(inColor.r, 0.5)).r, texture2D(texCurve, vec2(inColor.g, 0.5)).g, texture2D(texCurve, vec2(inColor.b, 0.5)).b, inColor.a);
+    return vec4(texture2D(texCurve, vec2(inColor.r, 0.5)).r,
+                texture2D(texCurve, vec2(inColor.g, 0.5)).g,
+                texture2D(texCurve, vec2(inColor.b, 0.5)).b, inColor.a);
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////
-//vignetteColor - Applies Vignette to a sample. 
+// vignetteColor - Applies Vignette to a sample.
 ////////////////////////////////////////////////////////////////////////////////////////
 vec4 vignetteColor(vec4 inColor, sampler2D texVignette)
 {
@@ -71,16 +78,17 @@ vec4 vignetteColor(vec4 inColor, sampler2D texVignette)
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////
-//overlayColor- Applies an overlay to a sample. 
+// overlayColor- Applies an overlay to a sample.
 ////////////////////////////////////////////////////////////////////////////////////////
 vec4 overlayColor(vec4 inColor, sampler2D texOverlay)
 {
     vec4 outColor = vec4(0.0, 0.0, 0.0, 1.0);
     vec4 overlay = texture2D(texOverlay, v_vTexcoord);
 
-if (inColor.r > 0.5)
+    if (inColor.r > 0.5)
     {
-        outColor.r = (1.0 - (1.0 - 2.0 * (inColor.r - 0.5)) * (1.0 - overlay.r));
+        outColor.r =
+            (1.0 - (1.0 - 2.0 * (inColor.r - 0.5)) * (1.0 - overlay.r));
     }
     else
     {
@@ -89,7 +97,8 @@ if (inColor.r > 0.5)
 
     if (inColor.g > 0.5)
     {
-        outColor.g = (1.0 - (1.0 - 2.0 * (inColor.g - 0.5)) * (1.0 - overlay.g));
+        outColor.g =
+            (1.0 - (1.0 - 2.0 * (inColor.g - 0.5)) * (1.0 - overlay.g));
     }
     else
     {
@@ -98,17 +107,18 @@ if (inColor.r > 0.5)
 
     if (inColor.b > 0.5)
     {
-        outColor.b = (1.0 - (1.0 - 2.0 * (inColor.b - 0.5)) * (1.0 - overlay.b));
+        outColor.b =
+            (1.0 - (1.0 - 2.0 * (inColor.b - 0.5)) * (1.0 - overlay.b));
     }
     else
     {
         outColor.b = ((2.0 * inColor.b) * overlay.b);
     }
-    
+
     return outColor;
 }
 ////////////////////////////////////////////////////////////////////////////////////////
-//main - Main Program
+// main - Main Program
 ////////////////////////////////////////////////////////////////////////////////////////
 void main()
 {
@@ -117,6 +127,6 @@ void main()
     outColor = blurSample(gm_BaseTexture, sigma, blurSize);
     outColor = curveColor(outColor, texCurve);
     outColor = overlayColor(outColor, texVignette);
-    
+
     gl_FragColor = outColor;
 }

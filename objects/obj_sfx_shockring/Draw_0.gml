@@ -1,44 +1,57 @@
-
-if radius < r_max radius += spd else instance_destroy();
+if (radius < r_max) {
+  radius += spd;
+} else {
+  instance_destroy();
+}
 
 var o, c, xx, yy, a, sx, sy;
 
-o = (-radius + r_max) / 5;      //Distortion offset
-c = 0;                          //Multiplier for ring segments
-a = 1 / (r_max / spd);          //Alpha modifier
-sx = tex_w / srf_w;             //Texture x coord
-sy = tex_h / srf_h;             //texture y coord
+o = (-radius + r_max) / 5; //Distortion offset
+c = 0; //Multiplier for ring segments
+a = 1 / (r_max / spd); //Alpha modifier
+sx = tex_w / srf_w; //Texture x coord
+sy = tex_h / srf_h; //texture y coord
 
 //Draw the inner part of the ring
 draw_primitive_begin_texture(pr_trianglestrip, tex);
-repeat(16)
-    {
-    xx = x + lengthdir_x(radius, c * d);
-    yy = y + lengthdir_y(radius, c * d);
-    draw_vertex_texture_color(xx, yy, sx * (xx + lengthdir_x(o, c * d)), sy * (yy + lengthdir_y(o, c * d)), c_white, image_alpha);
-    xx = x + lengthdir_x(radius - ww, c * d);
-    yy = y + lengthdir_y(radius - ww, c * d);
-    draw_vertex_texture_color(xx, yy, sx * xx, sy * yy, c_white, 0);
-    c += 1;
-    }
+for (var __i = 0; __i < 16; __i++) {
+  xx = x + lengthdir_x(radius, c * d);
+  yy = y + lengthdir_y(radius, c * d);
+  draw_vertex_texture_color(
+    xx,
+    yy,
+    sx * (xx + lengthdir_x(o, c * d)),
+    sy * (yy + lengthdir_y(o, c * d)),
+    c_white,
+    image_alpha
+  );
+  xx = x + lengthdir_x(radius - ww, c * d);
+  yy = y + lengthdir_y(radius - ww, c * d);
+  draw_vertex_texture_color(xx, yy, sx * xx, sy * yy, c_white, 0);
+  c += 1;
+}
 draw_primitive_end();
-c = 0
+c = 0;
 //Draw the outer part of the ring
 draw_primitive_begin_texture(pr_trianglestrip, tex);
-repeat(16)
-    {
-    xx = x + lengthdir_x(radius + ww, c * d);
-    yy = y + lengthdir_y(radius + ww, c * d);
-    draw_vertex_texture_color(xx, yy, sx * xx, sy * yy, c_white, 0);
-    xx = x + lengthdir_x(radius, c * d);
-    yy = y + lengthdir_y(radius, c * d);
-    draw_vertex_texture_color(xx, yy, sx * (xx + lengthdir_x(o, c * d)), sy * (yy + lengthdir_y(o, c * d)), c_white, image_alpha);
-    c += 1;
-    }
+for (var __i = 0; __i < 16; __i++) {
+  xx = x + lengthdir_x(radius + ww, c * d);
+  yy = y + lengthdir_y(radius + ww, c * d);
+  draw_vertex_texture_color(xx, yy, sx * xx, sy * yy, c_white, 0);
+  xx = x + lengthdir_x(radius, c * d);
+  yy = y + lengthdir_y(radius, c * d);
+  draw_vertex_texture_color(
+    xx,
+    yy,
+    sx * (xx + lengthdir_x(o, c * d)),
+    sy * (yy + lengthdir_y(o, c * d)),
+    c_white,
+    image_alpha
+  );
+  c += 1;
+}
 draw_primitive_end();
 image_alpha -= a;
-
-
 
 /*
 // Convert 3D coordinates to 2D screen coordinates.

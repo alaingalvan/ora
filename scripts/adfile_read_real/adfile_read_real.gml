@@ -1,5 +1,5 @@
-function adfile_read_real(argument0) {
-	/* Advanced File System
+/**
+ Advanced File System
 	By Joshua Brookover, josh@ja-lb.com
 
 	adfile_read_real
@@ -12,25 +12,18 @@ function adfile_read_real(argument0) {
 	Returns:
 	Real value.
 	*/
-
-	var type,len,ret;
-	type = file_bin_read_byte(argument0);
-	if (type == 0)
-	{
-	  len = file_bin_read_byte(argument0);
-	  ret = "";
-	  repeat (len)
-	  {
-	    ret += chr(255-file_bin_read_byte(argument0));
-	  }
-	  return real(ret);
-	}
-	else
-	{
-	  //show_error("The next saved data in this file is not a REAL value.",false);
-	  return 0;
-	}
-
-
-
+function adfile_read_real(_handle) {
+  var _type, _len, _ret;
+  _type = file_bin_read_byte(_handle);
+  if (_type == 0) {
+    _len = file_bin_read_byte(_handle);
+    _ret = "";
+    for (var __i = 0; __i < _len; __i++) {
+      _ret += chr(255 - file_bin_read_byte(_handle));
+    }
+    return real(_ret);
+  } else {
+    //show_error("The next saved data in this file is not a REAL value.",false);
+    return 0;
+  }
 }

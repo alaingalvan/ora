@@ -1,21 +1,18 @@
-
-ww = 25;            //Width of the "ring" effect
-radius = 0;         //Size check variable
-r_max = 120;        //Maximum radius of the effect
-spd = 1;            //Expansion speed
-d = 360/15;         //Ring "segments" to be drawn
-z = 0
+ww = 25; //Width of the "ring" effect
+radius = 0; //Size check variable
+r_max = 120; //Maximum radius of the effect
+spd = 1; //Expansion speed
+d = 360 / 15; //Ring "segments" to be drawn
+z = 0;
 
 //get the texture components from the surface
-if instance_exists(obj_camera)
-{
-tex = surface_get_texture(obj_camera.view_surface[0]);
-srf_w = surface_get_width(obj_camera.view_surface[0]);
-srf_h = surface_get_height(obj_camera.view_surface[0]);
-tex_w = texture_get_width(tex);
-tex_h = texture_get_height(tex);
-}
-else instance_destroy();
+if (instance_exists(obj_camera)) {
+  tex = surface_get_texture(obj_camera.view_surface[0]);
+  srf_w = surface_get_width(obj_camera.view_surface[0]);
+  srf_h = surface_get_height(obj_camera.view_surface[0]);
+  tex_w = texture_get_width(tex);
+  tex_h = texture_get_height(tex);
+} else instance_destroy();
 
 /*
 z = 0

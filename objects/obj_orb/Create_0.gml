@@ -1,7 +1,8 @@
-//game_ini();
-//Orb Engine 4
-//By Alain Galvan
-//Last Revision: 06/15/12
+// game_ini();
+// Orb Engine 4
+// By Alain Galvan
+// Last Revision: 06/15/12
+// Revisited at 05/10/2024 - Hi past Alain!
 ////////////////////////////////////////////////////////////////////////////////////////
 //Initial Code
 //This has been set so that one can easily modify the physics that influence orb while at
@@ -54,14 +55,14 @@ movetimerl = 0;
 noclip = false;
 
 //Load Game
-if (global.loadgame = true) {
-    x = global.xx;
-    y = global.yy;
+if ((global.loadgame = true)) {
+  x = global.xx;
+  y = global.yy;
 }
-if (global.loadgame = false) {
-    global.xx = x;
-    global.yy = y;
-    gamesave_save();
+if ((global.loadgame = false)) {
+  global.xx = x;
+  global.yy = y;
+  gamesave_save();
 }
 
 //Constants
@@ -72,4 +73,3 @@ ladder = obj_ladder_par;
 
 global.loadgame = false;
 touch_control();
-

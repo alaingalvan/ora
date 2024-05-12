@@ -1,9 +1,21 @@
 //3D mouse initialization
-convert_prepare(obj_camera.xfrom, obj_camera.yfrom, obj_camera.zfrom, obj_camera.xto, obj_camera.yto, obj_camera.zto, obj_camera.xup, obj_camera.yup, obj_camera.zup, obj_camera.fov, global.aspect_ratio);
+convert_prepare(
+  obj_camera.xfrom,
+  obj_camera.yfrom,
+  obj_camera.zfrom,
+  obj_camera.xto,
+  obj_camera.yto,
+  obj_camera.zto,
+  obj_camera.xup,
+  obj_camera.yup,
+  obj_camera.zup,
+  obj_camera.fov,
+  global.aspect_ratio
+);
 select_x = 0;
 select_y = 0;
 select_z = 0;
-cur_select = noone; //The current instance selected. 
+cur_select = noone; //The current instance selected.
 cur_tool = 0; //0 = draw 1 = select, 2 = erase
 
 //Hierarchy Selection and Rendering
@@ -23,7 +35,7 @@ list_scroll_band = 0; //value that list_scroll approches.
 cur_object = obj_block_floor;
 //String that stores the list of folders.
 hierarchy = "Environments > Infinity Plains";
-//if the editor is minimized. 
+//if the editor is minimized.
 editorclosed = false;
 //if a drop down menu is currently active.
 dropdown = false;
@@ -33,4 +45,3 @@ placeover = -1;
 //mask_index = cur_object.mask_index
 d3d_on = true;
 cursor = background_get_texture(bac_oe_cursor);
-

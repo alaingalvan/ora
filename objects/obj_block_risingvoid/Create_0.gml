@@ -4,4 +4,3 @@ xlength = room_width;
 ylength = 640;
 zlength = -128;
 doonce = false;
-

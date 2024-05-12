@@ -1,10 +1,10 @@
 function game_presets_get() {
-	//Returns an int defining what the current preset is.
-	//-1 = custom, 0 = Minimum, 1 = Low, 2 = Default, 3 = High, 4 = Maximum.
+  //Returns an int defining what the current preset is.
+  //-1 = custom, 0 = Minimum, 1 = Low, 2 = Default, 3 = High, 4 = Maximum.
 
-	//Minimum
-	//No Antialiasing, No Vsync, No Post-Processing, No DOFs, No Motion Blur, No Shadows, No Lights, 30 FPS Max, 
-	/*
+  //Minimum
+  //No Antialiasing, No Vsync, No Post-Processing, No DOFs, No Motion Blur, No Shadows, No Lights, 30 FPS Max,
+  /*
 	    global.postprocess == 0
 	    global.antialiasing == 0
 	    global.vsync == false
@@ -17,8 +17,5 @@ function game_presets_get() {
 	    global.ssao = false
 	    global.shadow_quality = ini_read_real("Graphics", "Shadow Quality", 0) //same as texture quality. 
 	*/
-	return -1;
-
-
-
+  return -1;
 }

@@ -1,5 +1,4 @@
-function adfile_close(argument0) {
-	/* Advanced File System
+/** Advanced File System
 	By Joshua Brookover, josh@ja-lb.com
 
 	adfile_close
@@ -9,9 +8,6 @@ function adfile_close(argument0) {
 	Arguments:
 	1 - Handle
 	*/
-
-	file_bin_close(argument0);
-
-
-
+function adfile_close(_handle) {
+  file_bin_close(_handle);
 }

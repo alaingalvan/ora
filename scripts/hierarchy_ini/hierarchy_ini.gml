@@ -1,5 +1,5 @@
 function hierarchy_ini() {
-	/*
+  /*
 	gameobject_list = ds_grid_create(256,4)
 	for(i = 0; i<ds_grid_width(gameobject_list); i+=1)
 	{

@@ -1,28 +1,27 @@
 /// @description Menu Start
 game_ini();
+
+// Scale relative to base units of 1280x720
 scale = 1920 / 1280;
-if (os_type == os_android)
-{
-    scale=1920 / 1196;
+if (os_type == os_android) {
+  scale = 1920 / 1280;
 }
 
 //Button Params
 button_c[0] = c_black;
 button_c[1] = make_color_rgb(48, 48, 48);
-button_w = 224;
+button_w = 192;
 button_h = 96;
 button_spacing = 32;
-button_y = (800 / 2) + 272;
+button_y = 720 - button_h - button_spacing;
 button_y_max = 16;
 button_maxnumber = 24;
 
-for (var i = 10; i > -1; i--)
-{
-    button_y_add[i] = 0;
+for (var __i = 10; __i > -1; __i--) {
+  button_y_add[__i] = 0;
 }
 
-
-//Fade in / Fade Out Transition effect for menu folders. 
+//Fade in / Fade Out Transition effect for menu folders.
 trans_alpha = 1.0;
 trans_menu = false;
 
@@ -53,10 +52,8 @@ io_clear();
 
 //Mobile Specific Start
 alarm[11] = 1;
-if (os_type == os_android)
-{
-    global.res_x = display_get_width();
-    global.res_y = display_get_height();
-    global.aspect_ratio = (global.res_x/global.res_y);
+if (os_type == os_android) {
+  global.res_x = display_get_width();
+  global.res_y = display_get_height();
+  global.aspect_ratio = global.res_x / global.res_y;
 }
-

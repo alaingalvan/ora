@@ -1,6 +1,1 @@
-function instancelist_draw() {
-
-
-
-
-}
+function instancelist_draw() {}

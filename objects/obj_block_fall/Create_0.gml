@@ -12,4 +12,3 @@ timer = 20;
 if (global.difficulty == 0) {
   timer = 40;
 }
-

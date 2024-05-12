@@ -1,6 +1,6 @@
 function __init_joystick() {
   gml_pragma("global", "__init_joystick();");
-  //#macro __JOYSTICK_2_GAMEPAD	(argument0 == 2) ? global.__jstick_pad2 : global.__jstick_pad1
+  //___gml_macro(__JOYSTICK_2_GAMEPAD, `(argument0 == 2) ? global.__jstick_pad2 : global.__jstick_pad1`)
   global.__jstick_pad1 = 4;
   global.__jstick_pad2 = 5;
   global.__jstick_povangle = [

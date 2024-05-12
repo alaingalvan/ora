@@ -1,6 +1,6 @@
 if (!d3d_on) {
-  select_x = floor(mouse_x / 64) * 64;
-  select_y = floor(mouse_y / 64) * 64;
+  select_x = floor(device_mouse_x_to_gui(0) / 64) * 64;
+  select_y = floor(device_mouse_y_to_gui(0) / 64) * 64;
 } else {
   convert_prepare(
     obj_camera.xfrom,
@@ -16,8 +16,8 @@ if (!d3d_on) {
     global.aspect_ratio
   );
   convert_2d(
-    mouse_x,
-    mouse_y,
+    device_mouse_x_to_gui(0),
+    device_mouse_y_to_gui(0),
     obj_camera.xfrom,
     obj_camera.yfrom,
     obj_camera.zfrom,

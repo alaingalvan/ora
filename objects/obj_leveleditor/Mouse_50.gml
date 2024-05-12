@@ -1,17 +1,21 @@
-var inviewport, inproperties;
-inviewport = (mouse_x < 480 && mouse_y > 32 && !dropdown) || editorclosed;
-inhierarchy = mouse_y < 544;
-inproperties = mouse_y >= 544;
+var _inviewport, _inproperties, _inhierarchy;
+_inviewport =
+  (device_mouse_x_to_gui(0) < 480 &&
+    device_mouse_y_to_gui(0) > 32 &&
+    !dropdown) ||
+  editorclosed;
+_inhierarchy = device_mouse_y_to_gui(0) < 544;
+_inproperties = device_mouse_y_to_gui(0) >= 544;
 
-if (inviewport) {
-  if (inhierarchy) {
+if (_inviewport) {
+  if (_inhierarchy) {
     //Do something
   }
-  if (inproperties) {
+  if (_inproperties) {
     //test
   }
 }
-if (!inviewport && mouse_y > 32) {
+if (!_inviewport && device_mouse_y_to_gui(0) > 32) {
   //Can't place inside viewport
   if (
     !is_string(cur_object) &&

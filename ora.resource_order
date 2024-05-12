@@ -133,7 +133,6 @@
     {"name":"d3d_model_cylinder","order":63,"path":"scripts/d3d_model_cylinder/d3d_model_cylinder.yy",},
     {"name":"d3d_model_ellipsoid","order":65,"path":"scripts/d3d_model_ellipsoid/d3d_model_ellipsoid.yy",},
     {"name":"d3d_model_floor","order":67,"path":"scripts/d3d_model_floor/d3d_model_floor.yy",},
-    {"name":"d3d_model_load_ext","order":3,"path":"scripts/d3d_model_load_ext/d3d_model_load_ext.yy",},
     {"name":"d3d_model_load","order":11,"path":"scripts/d3d_model_load/d3d_model_load.yy",},
     {"name":"d3d_model_primitive_begin","order":13,"path":"scripts/d3d_model_primitive_begin/d3d_model_primitive_begin.yy",},
     {"name":"d3d_model_primitive_end","order":15,"path":"scripts/d3d_model_primitive_end/d3d_model_primitive_end.yy",},

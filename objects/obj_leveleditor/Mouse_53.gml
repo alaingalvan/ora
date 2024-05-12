@@ -1,17 +1,21 @@
-var inviewport, inproperties;
-inviewport = (mouse_x < 480 && mouse_y > 32 && !dropdown) || editorclosed;
-inhierarchy = mouse_y < 544;
-inproperties = mouse_y >= 544;
-intopbar = mouse_y < 32;
-if (intopbar) {
-  if (mouse_x > 54 && mouse_x < 111) {
+var _in_viewport, _in_properties, _inhierarchy, _intopbar;
+_in_viewport =
+  (device_mouse_x_to_gui(0) < 480 &&
+    device_mouse_y_to_gui(0) > 32 &&
+    !dropdown) ||
+  editorclosed;
+_inhierarchy = device_mouse_y_to_gui(0) < 544;
+_in_properties = device_mouse_y_to_gui(0) >= 544;
+_intopbar = device_mouse_y_to_gui(0) < 32;
+if (_intopbar) {
+  if (device_mouse_x_to_gui(0) > 54 && device_mouse_x_to_gui(0) < 111) {
     if (!instance_exists(obj_oe_dropmenu_file)) {
       //instance_create(54, 32, obj_oe_dropmenu_file)
     }
   }
 }
-if (inviewport) {
-  if (inhierarchy) {
+if (_in_viewport) {
+  if (_inhierarchy) {
     if (hierarchyselect() >= 0) {
       if (hierarchyselect() < ds_grid_width(cur_list) - cur_line * line_width) {
         if (cur_x + cur_y * line_width == hierarchyselect()) {
@@ -32,7 +36,7 @@ if (inviewport) {
       }
     }
   }
-  if (inproperties) {
+  if (_in_properties) {
     //test
   }
 }

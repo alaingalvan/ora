@@ -208,7 +208,6 @@
     {"id":{"name":"d3d_model_cylinder","path":"scripts/d3d_model_cylinder/d3d_model_cylinder.yy",},},
     {"id":{"name":"d3d_model_ellipsoid","path":"scripts/d3d_model_ellipsoid/d3d_model_ellipsoid.yy",},},
     {"id":{"name":"d3d_model_floor","path":"scripts/d3d_model_floor/d3d_model_floor.yy",},},
-    {"id":{"name":"d3d_model_load_ext","path":"scripts/d3d_model_load_ext/d3d_model_load_ext.yy",},},
     {"id":{"name":"d3d_model_load","path":"scripts/d3d_model_load/d3d_model_load.yy",},},
     {"id":{"name":"d3d_model_primitive_begin","path":"scripts/d3d_model_primitive_begin/d3d_model_primitive_begin.yy",},},
     {"id":{"name":"d3d_model_primitive_end","path":"scripts/d3d_model_primitive_end/d3d_model_primitive_end.yy",},},

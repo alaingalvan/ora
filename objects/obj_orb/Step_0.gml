@@ -24,7 +24,7 @@
 //Movement & Friction
 ////////////////////////////////////////////////////////////////////////////////////////
 //PC Controls
-left = keyboard_check(global.left) || keyboard_check(ord("A"));
+left = keyboard_check(global.left);
 right = keyboard_check(global.right);
 up = keyboard_check(global.up);
 down = keyboard_check(global.down);

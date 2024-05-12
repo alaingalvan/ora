@@ -6,7 +6,7 @@ doonce = false;
 
 frontwall = background_get_texture(bac_tex_wall);
 sides = background_get_texture(bac_tex_walldepth);
-top = background_get_texture(bac_tex_floor);
+top = background_get_texture(spr_bac_tex_floor);
 
 doonce = false;
 canfall = false;

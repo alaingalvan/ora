@@ -6,8 +6,8 @@ function model_load() {
 
   //DEBUG blocks
   global.tex_db_front = background_get_texture(bac_tex_walldepth);
-  global.tex_db_fronttop = background_get_texture(bac_tex_floordepth);
-  global.tex_db_floor = background_get_texture(bac_tex_floor);
+  global.tex_db_fronttop = background_get_texture(spr_bac_tex_floordepth);
+  global.tex_db_floor = background_get_texture(spr_bac_tex_floor);
   global.tex_db_wall = background_get_texture(bac_tex_wall);
 
   global.tex_db_white = background_get_texture(bac_tex_white);

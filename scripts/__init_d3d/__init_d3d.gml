@@ -12,7 +12,8 @@ function __init_d3d() {
   vertex_format_add_normal();
   vertex_format_add_colour();
   vertex_format_add_texcoord();
-  global.__d3dPrimVF = vertex_format_end();
+  global.d3d_prim_vertex_format = vertex_format_end();
+  global.__d3dPrimVF =   global.d3d_prim_vertex_format;
   global.__d3dDeprecatedMessage = [false];
 
   enum e__YYM {

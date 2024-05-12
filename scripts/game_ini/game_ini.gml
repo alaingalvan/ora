@@ -5,7 +5,7 @@ function game_ini() {
   gamepad_ini();
 
   //Misc
-  global.postprocessing = true;
+  global.postprocessing = os_browser == browser_not_a_browser;
   global.blurvar = 20;
   global.cutscene = false;
   global.debug = true;

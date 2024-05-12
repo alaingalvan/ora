@@ -4,7 +4,7 @@ if (keyboard_lastchar != "#" && keyboard_lastchar != "`") {
 }
 
 if (keyboard_check_pressed(vk_enter)) {
-  //string_history +=cur_string+"#"
+  string_history += cur_string + "\n";
   console_execute(cur_string);
   keyboard_string = "";
   cur_string = "";

@@ -8,7 +8,13 @@ function camera_ini() {
     This script initializes the camera and all the variables needed in the camera. 
     //////////////////////////////////////////////////////////////////////////////////////*/
   config_apply();
-  //D3D Settings
+
+  //gpu_set_zwriteenable(true);
+  //gpu_set_ztestenable(true);
+  //gpu_set_zfunc(cmpfunc_greater);
+  //gpu_set_cullmode(cull_counterclockwise);
+  //gpu_set_alphatestenable(true);
+
   d3d_start();
   d3d_set_shading();
   d3d_set_lighting(false);
@@ -16,6 +22,7 @@ function camera_ini() {
   texture_set_interpolation(true);
   texture_set_blending(true);
   d3d_set_culling(false);
+
   d3d_light_define_ambient(c_white);
 
   //Location

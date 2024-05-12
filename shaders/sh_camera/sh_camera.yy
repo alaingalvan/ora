@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"shr_camera",
-  "name":"shr_camera",
+  "%Name":"sh_camera",
+  "name":"sh_camera",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",

@@ -6,4 +6,4 @@ ylength = 64;
 zlength = -128;
 
 front = background_get_texture(bac_text_floordepth);
-top = background_get_texture(bac_tex_floor);
+top = background_get_texture(spr_bac_tex_floor);

@@ -4,15 +4,15 @@ function console_execute(argument0) {
 	var instr, list, curchar, curtoken;
 	instr = argument0;
 	list = ds_list_create();
-	curchar = 0;
+	curchar = 1;
 	curtoken = "";
 
 	//Tokenize Script
-	while (curchar < string_length(instr)) {
-	  if (string_char_at(instr, curchar) != " ")
+	while (curchar < string_length(instr)+1) {
+	  if (string_char_at(instr, curchar) != " ") {
 	    curtoken += string_char_at(instr, curchar);
-
-	  if (string_char_at(instr, curchar) == " ") {
+    }
+	  if (string_char_at(instr, curchar) == " " || curchar == string_length(instr)) {
 	    if (curtoken != "")
 	      ds_list_add(list, curtoken);
 	    curtoken = "";
@@ -27,16 +27,16 @@ function console_execute(argument0) {
 	  //----------------------------------------------------------------------------\\
 	  if (string_lower(ds_list_find_value(list, a)) == "help" || ds_list_find_value(list, a) == "?") {
 	    string_history += @"
-	    ORA Console Help: ##
-	      help - Displays all possible inputs.#
-	    clearhistory - Clears the history.#
-	    leveleditor - lets you edit the current level.#
-	    noclip - enables ORA noclip mode.#
-	    oraback - Teleports ORA to the last checkpoint.#
-	    antialiasing[0, 2, 4, 8] - Sets Anti - Aliasing.#
-	    vsync[on, off] - Sets VSync.#
-	    playeradd - Enables experimental 2 player.#
-	    ";
+	    ORA Console Help:
+	      help - Displays all possible inputs.
+	      clearhistory - Clears the history.
+	      leveleditor - lets you edit the current level.
+	      noclip - enables ORA noclip mode.
+	      oraback - Teleports ORA to the last checkpoint.
+	      antialiasing[0, 2, 4, 8] - Sets Anti - Aliasing.
+	      vsync[on, off] - Sets VSync.
+	      playeradd - Enables experimental 2 player.
+";
 	  }
 
 	  //----------------------------------------------------------------------------\\
@@ -52,7 +52,7 @@ function console_execute(argument0) {
 	  if (string_lower(ds_list_find_value(list, a)) == "playeradd") {
 	    if !instance_exists(obj_orb2) {
 	      instance_create(obj_orb.x, obj_orb.y, obj_orb2);
-	      string_history += "Adding player 2.#";
+	      string_history += "Adding player 2.\n";
 	    }
 	  }
 	  //----------------------------------------------------------------------------\\
@@ -63,10 +63,10 @@ function console_execute(argument0) {
 	      with(obj_leveleditor) {
 	        instance_destroy();
 	      }
-	      string_history += "Removing Level Editor.#";
+	      string_history += "Removing Level Editor.\n";
 	    } else {
 	      instance_create(0, 0, obj_leveleditor);
-	      string_history += "Creating Level Editor.#";
+	      string_history += "Creating Level Editor.\n";
 	    }
 
 	  }

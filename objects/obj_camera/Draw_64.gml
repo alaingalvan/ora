@@ -1,7 +1,7 @@
 /// @description Camera Surface Draw
 if (global.postprocessing) {
   //Draw View
-  shader_set(shr_camera);
+  shader_set(sh_camera);
   ////////////////////////////////////////////////////////////////////////////////////////
   //Blur
   shader_set_uniform_f(sigma, blur_radius);

@@ -10,7 +10,7 @@
   "option_html5_facebook_id":"",
   "option_html5_flurry_enable":false,
   "option_html5_flurry_id":"",
-  "option_html5_foldername":"ora2012",
+  "option_html5_foldername":"assets",
   "option_html5_google_analytics_enable":false,
   "option_html5_google_tracking_id":"",
   "option_html5_icon":"${base_options_dir}/html5/fav.ico",

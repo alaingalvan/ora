@@ -213,7 +213,7 @@ if (
 
 ///Controller based Input
 if (gamepad_is_supported()) {
-  //gamepad_detect();
+  gamepad_detect();
 
   if (global.gamepad_connected[0]) {
     var leftstick_x, leftstick_y, moving, deadzone, angle;

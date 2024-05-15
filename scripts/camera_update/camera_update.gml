@@ -31,8 +31,8 @@ function camera_update() {
         rightstick_x = gamepad_axis_value(0, gp_axisrh);
         rightstick_y = gamepad_axis_value(0, gp_axisrv);
         looking =
-          abs(rightstick_x) > global.gamepad_deadzone[0] ||
-          abs(rightstick_y) > global.gamepad_deadzone[0];
+          abs(rightstick_x) > global.gamepad_deadzone[0] * 2 &&
+          abs(rightstick_y) > global.gamepad_deadzone[0] * 2;
 
         if (looking) {
           angle_x_band +=

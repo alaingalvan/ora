@@ -30,58 +30,61 @@ up = keyboard_check(global.up);
 down = keyboard_check(global.down);
 //Gamepad Controls
 
-if (os_type == os_windows || os_type == os_macosx) {
-  if (joystick_exists(1)) {
-    switch (joystick_direction(1)) {
-      case vk_numpad1:
-        left = true;
-        if (inwater == 1) {
-          down = true;
-        }
-        break;
-      case vk_numpad2:
-        if (inwater == 1) {
-          down = true;
-        }
-        break;
-      case vk_numpad3:
-        right = true;
-        if (inwater == 1) {
-          down = true;
-        }
-        break;
-      case vk_numpad4:
-        left = true;
-        break;
-      case vk_numpad6:
-        right = true;
-        break;
-      case vk_numpad7:
-        left = true;
-        if (inwater == 1) {
-          up = true;
-        }
-        break;
-      case vk_numpad8:
-        if (inwater == 1) {
-          up = true;
-        }
-        break;
-      case vk_numpad9:
-        right = true;
-        if (inwater) {
-          up = true;
-        }
-        break;
-    }
-    if (joystick_check_button(1, 1)) {
-      up = true;
-    }
-    if (joystick_check_button(1, 7)) {
-      if (instance_exists(obj_orb2)) {
-        x = obj_orb2.x;
-        y = obj_orb2.y;
+if (gamepad_is_supported()) {
+  switch (joystick_direction(0)) {
+    case vk_numpad1:
+      left |= true;
+      if (inwater == 1) {
+        down |= true;
       }
+      break;
+    case vk_numpad2:
+      if (inwater == 1) {
+        down |= true;
+      }
+      break;
+    case vk_numpad3:
+      right |= true;
+      if (inwater == 1) {
+        down |= true;
+      }
+      break;
+    case vk_numpad4:
+      left |= true;
+      break;
+    case vk_numpad6:
+      right |= true;
+      break;
+    case vk_numpad7:
+      left |= true;
+      if (inwater == 1) {
+        up |= true;
+      }
+      break;
+    case vk_numpad8:
+      if (inwater == 1) {
+        up |= true;
+      }
+      break;
+    case vk_numpad9:
+      right |= true;
+      if (inwater) {
+        up |= true;
+      }
+      break;
+  }
+
+  left |= gamepad_button_value(0, gp_padl) > 0;
+  right |= gamepad_button_value(0, gp_padr) > 0;
+  up |= inwater == 1 ? gamepad_button_value(0, gp_padu) > 0 : false;
+  down |= inwater == 1 ? gamepad_button_value(0, gp_padd) > 0 : false;
+
+  up |= gamepad_button_value(0, gp_face1) > 0;
+
+  if (gamepad_button_value(0, gp_select) > 0) {
+    if (instance_exists(obj_orb2)) {
+      x = obj_orb2.x;
+      y = obj_orb2.y;
     }
   }
 }

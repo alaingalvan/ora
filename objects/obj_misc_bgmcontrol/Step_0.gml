@@ -1,8 +1,8 @@
-var bgm_vol;
-bgm_vol = (global.bgm_volume / 100) * 0.5;
+var _bgm_vol;
+_bgm_vol = (global._bgm_volume / 100) * 0.5;
 //Fade in Volume
 if (fade == 1) {
-  if (vol < bgm_vol) {
+  if (vol < _bgm_vol) {
     vol += 0.025;
   }
 }
@@ -13,7 +13,7 @@ if (fade == 0) {
     vol -= 0.01;
   }
 }
-vol = clamp(vol, 0, bgm_vol);
+vol = clamp(vol, 0, _bgm_vol);
 
 //Track Selection
 switch (room) {

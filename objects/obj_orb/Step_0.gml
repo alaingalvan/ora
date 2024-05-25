@@ -11,7 +11,7 @@
 //Screen Zooms out and averages on bouncing at high frequencies.
 //Implement Box Physics
 //Fullscreen Fix
-//Options Implemtation
+//Options Implementation
 //Adjust tutorial image to scale with screen.
 //Add more contrast to menu buttons.
 //Make it so that blocks no longer kill you if falling, only when you're crushed.

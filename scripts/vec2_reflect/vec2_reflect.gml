@@ -1,14 +1,12 @@
-function vec2_reflect(argument0, argument1) {
+function vec2_reflect(_vector, _normal) {
   //vec_reflect(vector,normal)
-  var vector, normal, ret, dot;
-  vector = argument0;
-  normal = argument1;
+  var _ret, _dot;
 
-  dot = 2 * vec2_dot(vector, normal);
+  _dot = 2 * vec2_dot(_vector, _normal);
 
-  for (var a = 1; a > -1; a--) {
-    ret[a] = vector[a] - dot2 * normal[a];
+  for (var _a = 1; _a > -1; _a--) {
+    _ret[_a] = _vector[_a] - _dot * _normal[a];
   }
 
-  return ret;
+  return _ret;
 }

@@ -1,8 +1,8 @@
 function gamepad_ini() {
   //Gamepad
-  for (var i = 3; i > -1; i--) {
-    global.gamepad_connected[i] = gamepad_is_connected(i);
-    global.camera_index[i] = noone;
-    global.gamepad_sensitivity_y[i] = 1;
+  for (var _i = 3; _i > -1; _i--) {
+    global.gamepad_connected[_i] = gamepad_is_connected(i);
+    global.camera_index[_i] = noone;
+    global.gamepad_sensitivity_y[_i] = 1;
   }
 }

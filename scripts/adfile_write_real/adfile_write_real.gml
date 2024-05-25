@@ -1,4 +1,4 @@
-function adfile_write_real(argument0, argument1) {
+function adfile_write_real(_handle, _real) {
   /* Advanced File System
 	By Joshua Brookover, josh@ja-lb.com
 
@@ -12,13 +12,13 @@ function adfile_write_real(argument0, argument1) {
 	pos - byte position. 
 	*/
 
-  var l;
-  file_bin_write_byte(argument0, 0);
-  file_bin_write_byte(argument0, string_length(string(argument1)));
-  for (l = 1; l <= string_length(string(argument1)); l += 1) {
+
+  file_bin_write_byte(_handle, 0);
+  file_bin_write_byte(_handle, string_length(string(_real)));
+  for (var _l = 1; _l <= string_length(string(_real)); _l += 1) {
     file_bin_write_byte(
-      argument0,
-      255 - ord(string_char_at(string(argument1), l))
+      _handle,
+      255 - ord(string_char_at(string(_real), _l))
     );
   }
 }

@@ -16,10 +16,10 @@ function view_deactivate() {
     //instance_activate_object(obj_block_par)
 
     //reactivates all instances
-    var x1, y1, w, h;
+    var _x1, _y1, _w, _h;
     convert_2d(0, 0, global.cam_xfrom, global.cam_yfrom, global.cam_zfrom, 0);
-    x1 = x_3d - 256;
-    y1 = y_3d - 256;
+    _x1 = x_3d - 256;
+    _y1 = y_3d - 256;
     convert_2d(
       __view_get(e__VW.WView, 0),
       __view_get(e__VW.HView, 0),
@@ -28,9 +28,9 @@ function view_deactivate() {
       global.cam_zfrom,
       0
     );
-    w = x_3d - x1 + 256 * 2;
-    h = y_3d - y1 + 256 * 2;
+    _w = x_3d - x1 + 256 * 2;
+    _h = y_3d - y1 + 256 * 2;
     //d3d_set_hidden(true);
-    instance_activate_region(x1, y1, w, h, true);
+    instance_activate_region(_x1, _y1, _w, _h, true);
   }
 }

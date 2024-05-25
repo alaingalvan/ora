@@ -9,10 +9,8 @@
 
 d3d_set_lighting(false);
 d3d_set_hidden(false);
-var tex0, tex1, tex2;
-tex0 = sprite_get_texture(spr_foe_anti, 0);
-tex1 = sprite_get_texture(spr_foe_anti, 1);
-tex2 = sprite_get_texture(spr_foe_anti, 2);
+var _tex;
+_tex = sprite_get_texture(spr_foe_anti, 2);
 draw_set_blend_mode(bm_normal);
 draw_set_color(image_blend);
 d3d_draw_floor(
@@ -22,7 +20,7 @@ d3d_draw_floor(
   xprevious + 128,
   yprevious + 128,
   z,
-  tex2,
+  _tex,
   1,
   1
 );
